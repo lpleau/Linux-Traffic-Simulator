@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily Random Traffic Simulator
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/traffic_daily.sh
+Restart=always
+User=nobody
+Nice=10
+
+[Install]
+WantedBy=multi-user.target
