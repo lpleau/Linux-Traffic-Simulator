@@ -2,7 +2,7 @@
 
 ## 🎯 Goal
 
-You now have a **Linux service** that simulates random web traffic
+Have a **Linux service** that simulates random web traffic
 throughout the day.
 
 -   Runs **indefinitely** as a `systemd` service.\
